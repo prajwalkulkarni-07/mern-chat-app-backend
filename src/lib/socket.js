@@ -8,7 +8,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: process.env.NODE_ENV === "production" 
-      ? ["http://localhost:5173", "https://chattly-gamma.vercel.app/"] 
+      ? ["http://localhost:5173", "https://chattly-swart.vercel.app"] 
       : ["http://localhost:5173"],
     credentials: true,
   },
