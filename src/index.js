@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: process.env.NODE_ENV === "production" 
-      ? ["http://localhost:5173", "https://your-frontend-url-if-deployed-later.com"] 
+      ? ["http://localhost:5173", "https://chattly-gamma.vercel.app/"] 
       : "http://localhost:5173",
     credentials: true,
   })
